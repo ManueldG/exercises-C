@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<unistd.h>
+
+// -fsanitize=address
+int main(int argv , char **argc){
+	
+	char x[] = {'C','i','a','o'};
+	char y[] = {48,126,'C','i','a','o',7,200,5};	
+	int i = 0;
+	while (y[i]>=48 && y[i]<=126){
+		write(1,&y[i],1);
+		i++;
+	}
+	y[i] = '\0';
+	printf("\n %lu %s \n",(long unsigned) y,y);	
+	return 0;
+
+}

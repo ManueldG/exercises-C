@@ -35,7 +35,7 @@ struct Fisica {
 
 // Unione allo stesso livello
 struct Giocatore {
-    struct Posizione; // Struttura anonima 1
+    struct Posizione p; // Struttura anonima 1
     struct Fisica;    // Struttura anonima 2
     int salute;       // Campo specifico del Giocatore
 };
@@ -74,9 +74,9 @@ int main(){
 
 	struct Giocatore eroe;
 
-	eroe.x = 20;
+	eroe.p.x = 20;
 	
-	printf("eroe posizione %d\n",eroe.x);
+	printf("eroe posizione %d\n",eroe.p.x);
 	
 	return 0;	
 

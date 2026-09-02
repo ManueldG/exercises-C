@@ -1,10 +1,10 @@
-*
-**/*
-*.out
-*.patch
 !./vari
 !./sqliteP
 !*.c
 !*.h
 !*.def
+*
+**/*
+*.out
+*.patch
 

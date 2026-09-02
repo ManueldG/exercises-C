@@ -1,4 +1,4 @@
-#pragma message("RICORDATI: Questa sezione di codice va ottimizzata prima del rilascio!")
+#pragma  message( "RICORDATI: Questa sezione di codice va ottimizzata prima del rilascio!" )
 #include<stdio.h>
 
 typedef struct value{

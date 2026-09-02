@@ -1,10 +1,11 @@
-!./vari
-!./sqliteP
-!*.c
-!*.h
-!*.def
-*
+
 **/*
 *.out
 *.patch
 
+!/vari
+!/sqliteP
+!**/*.c
+!**/*.h
+!**/*.def
+!**/*.sql

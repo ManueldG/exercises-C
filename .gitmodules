@@ -1,4 +1,3 @@
 [submodule "ft"]
 	path = ft
 	url = https://github.com/ManueldG/Ecole42Piscine
-	branch = main

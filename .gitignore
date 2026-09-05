@@ -6,7 +6,16 @@
 !/vari
 !/sqliteP
 !/time
+!/ft
+!/sharedMem
+!/signal
+!/socket
+!/template
+!/bitmask
+
 !**/*.c
 !**/*.h
 !**/*.def
 !**/*.sql
+
+

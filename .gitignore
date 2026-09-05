@@ -5,6 +5,7 @@
 
 !/vari
 !/sqliteP
+!/time
 !**/*.c
 !**/*.h
 !**/*.def
